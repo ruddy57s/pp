@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background:#313D52;
+
+}
+
+.titulo{
+    width: 100%;
+    margin:auto; 
+    text-align:center;
+}
+
+.subtitulo{
+    width: 100%;
+    margin:auto; 
+    text-align:center;
+    color: white;
+    
+}
+
+.navegador{
+width:100000px;
+margin: 30px auto;
+background:white;
+text-align:auto;
+}
+
+.navegador ul{
+list-style: none;
+
+}
+
+.menu > li{
+position: relative;
+display: inline-block;
+}
+
+.menu > li > a {
+    display:block;
+    padding:15px 20px;
+    color: #353535;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color:#CE7D35;
+    transition: all .3s;
+}
+
+.enlaces {
+    color:red;
+}
+
+.Final{
+    text-align:center;
+    float:center;
+}
+
+.imagenes{
+    text-align: center;
+}
+
+.centerimg{
+    float:center;
+}
+.derecha{
+    float:right;
+}
+.izquierda{
+    float:left;
+}
+
+
+.text{
+    width: 1900px;
+    height: 300px;
+    margin: 3px;
+    padding: 3px;
+    background:white;
+    border: black 2px solid;
+    text-align:center;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Luiggi Taboada</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<a href="LuiggiTaboada.com"></a>
+
+</head>
+
+<body>
+	<header>
+
+		<h1 class="subtitulo">Luiggi Taboada</h1>
+		<nav class="navegador">
+			<ul class="menu">
+                <li><a href="#Primero">¿Quién soy?</a></li>
+				<li><a href="#segundo">Mi horario</a></li>
+				<li><a href="#tercero">Hobbies</a></li>
+				<li><a href="#cuarto">Compañeros</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	
+		
+
+		<a name="#Primero" ></a>
+		<h2 class="subtitulo">¿Quién soy?</h2>
+		<p class="text">Mi nombre es Luiggi Taboada, juego futbol en el clu de “Sport Linares” es un club que ha empezado desde 0 
+			pero ya vamos ganando 3 copas a los unicos 3 campeonatos que hemos ido y hay una posibilidad que podamos 
+			pelear por el titulo de segunda división. Estudio en la universidad san Ignacio de loyola (USIL) y estudio 
+			la carrera de información de Sistemas voy en el primer ciclo de esta emocionante carrera y la verdad es que me gusta 
+			y me parece interesante cuando el profesor no explica un tema nuevo y me da mucha curiosidad.<img src="foto1.jpg" width=300px class="centerimg"></p>
+			
+
+		
+		<a name="#segundo"></a>
+        <h2 class="subtitulo" >Mi Horario</h2>
+		<p class="text"> Los lunes tengo clases hasta las 4:40, luego entreno en mi casa y a las 7 o a la hora que termine de entrenar me baño, ceno y hago mis tareas. 
+			Los martes igual tengo clases hasta las 4:40, luego entreno en mi casa y a las 7 o a la hora que termine de entrenar me baño, ceno y hago mis tareas.
+			Los miércoles tengo clases hasta las 12:40 almuerzo con mi familia y voy a entrenar a San Juan de Lurigancho que es la sede de mi equipo llego a mi casa a las 8 
+			de la noche y me baño y estudio y hago mis tareas. Los jueves igual que el lunes y el martes tengo clases hasta las 4:40 luego entreno, me baño, ceno y 
+			hago mis tareas. Los días viernes solo tengo clases hastas las 11 y es mi día libre para relajarme y estar con mi familia un rato. Los días sabado tengo partidos
+			 con los protocolos de bioseguridad y con las normas del torneo. <img src="horario.jpg" width=200px class="derecha" ></p>
+
+
+
+	     <a name="#tercero"></a>
+		<h2 class="subtitulo" >Mis hobbies </h2>
+		<p class="text"> En mi tiempo libre me gusta jugar dota es mi unico videojuego que tengo y que lo juego desde hace unos años Me gustas escuchar musica,
+			 jugar partido Y salir a pasear con mis amigos.<img src="dota.jpg" width=300px class="derecha"><img src="spotify.jpg" width=150px class="izquierda"></p>
+
+
+		<h2 class="subtitulo" >Amigos de la Universidad </h2>
+		   <p class="text">En este primer ciclo de la universidad he conocido a poca gente pero muy buenas personas son divertidas, confiables y nos apoyamos el uno al otro 
+			Thamara valenzuela es una amiga que estudia la misma carrera y llevamos cursos en comun como desarrollo y fundamentos 
+			Shanaya es una amiga que conocí en dibujo técnico y a veces nos ayudamos en las tareas o hacemos llamada un día antes del examen para practicar 
+		   Lorenzo es un amigo que conoci hace años y jugamos juntos en “El Olivar” no sabia que estaba en la universidad hasta que un día lo agregaron a un grupo 
+			y me di cuenta que era él.Piero lo conozco más que los demás le gusta la misma música que a mi y le gusta rapear vive por lurin pero ojala nos podamos 
+			ver algún día Daniel es un amigo de sistemas a veces hacemos zoom con un grupo que tenemos para ayudarnos y hablar sobre los temas y las tareas 
+			Mauricio es un amigo de sistemas hacemos zoom con un grupo que tenemos para ayudarnos y hablar sobre los temas y las tareas que nos dejan 
+			<img src="amigos.jpg" width=300px class="izquierda"></p>
+		
+
+         
+
+
+		    <a name="#cuarto"></a>
+         	<h2 class="subtitulo">Compañeros</h2>
+
+         	<div>
+
+ 			<a href="https://practical-franklin-d0e378.netlify.app/"><img src="botton.png" width=60px><p>Laleska Arroyo</p></a></div>
+
+ 			
+
+ 			<a href="https://gabrielalvarado.me/"><img src="botton.png" width=60px><p>Gabriel Alvarado</p></a></div><div class="enlaces">
+ 			<a href="https://king-pacaya.github.io/"><img src="botton.png" width=60px><p>King Pacaya</p></a></div><div class="enlaces">
+ 			<a href="http://adrianpinado.me/"><img src="botton.png" width=60px><p>Adrián Pinado</p></a></div><div class="enlaces">
+ 			<a href="https://jobasi128.github.io/"><img src="botton.png" width=60px><p>Jonathan Barzola</p></a></div><div class="enlaces">
+ 			<a href="http://ricardocoria.byethost12.com/"><img src="botton.png" width=60px><p>Ricardo Coria</p></a></div><div class="enlaces">
+ 			<a href="http://www.danielquichepalacios.com/"><img src="botont.png" width=60px><p>Daniel Quiche</p></a></div><div class="enlaces">
+ 			<a href=" https://skeletus.github.io/"><img src="botton.png" width=60px><p>Jesús Arias</p></a></div><div class="enlaces">
+ 			<a href="https://wolfzerov.github.io/WolfZero.github.io/"><img src="botton.png" width=60px><p>Franco Villalobos</p></a></div><div class="enlaces">
+ 			<a href="https://claudiafernandarejasruiz.me/"><img src="botton.png" width=60px><p>Claudia Rejas</p></a></div><div class="enlaces">
+ 			<a href="https://www.jesusalonsosalazarmallqui.me/"><img src="botton.png" width=60px><p>Jesus Salazar</p></a></div><div class="enlaces">
+ 			<a href="https://www.diegoalonsomiguelortegaaquino.me/"><img src="botton.png" width=60px><p>Diego Ortega</p></a></div><div class="enlaces">
+ 			<a href="https://www.brayanelmercampossanchez.me/"><img src="botton.png" width=60px><p>Brayan Campos</p></a></div><div class="enlaces">
+ 			<a href="http://patriciogabrielramosmantari.me/ "><img src="botton.png" width=60px><p>Patricio Ramos</p></a></div><div class="enlaces">
+ 			<a href="https://angiemichellemontoyarocca.github.io/"><img src="botton.png" width=60px><p>Angie Montoya</p></a></div><div class="enlaces">
+ 			<a href="https://electroscopic-place.000webhostapp.com/"><img src="botton.png" width=60px><p>Eduardo Bautista</p></a></div><div class="enlaces">
+ 			<a href="https://mateobernabehuarcayamelgarejo.me/"><img src="botton.png" width=60px><p>Mateo Huarcaya</p></a></div><div class="enlaces">
+ 			<a href="https://andreaabigailcuevasvasquez00.000webhostapp.com/index.html"><img src="botton.png" width=60px><p>Andrea Cuevas</p></a></div><div class="enlaces">
+ 			<a href="https://pierofrancescobazanhuaman.000webhostapp.com/"><img src="botton.png" width=60px><p>Piero Cobazan</p></a></div><div class="enlaces">
+ 			<a href="https://brigiteemilianaquispemartini.000webhostapp.com/"><img src="botton.png" width=60px><p>Brigite Quispe</p></a></div>
+    
+
+        
+            <div class="Final">
+			<a href="https://www.facebook.com/"><img src="face.png" width=30px></a>
+			<a href="https://www.twitch.tv/"><img src="tw.png" width=30px></a>
+			<a href="https://twitter.com/"><img src="twit.png" width=30px></a>
+			</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/script.js"></script>
+	</html>
